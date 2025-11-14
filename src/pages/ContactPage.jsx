@@ -3,8 +3,8 @@ import React from 'react';
 function ContactPage() {
   return (
     <div>
-      <h1>联系我</h1>
-      <p>有任何问题或合作意向，请通过以下方式联系我。</p>
+      <h1>Contact Me</h1>
+      <p>If you have any questions,please contact me. My plone number is 68741102</p>
     </div>
   );
 }

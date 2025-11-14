@@ -15,14 +15,14 @@ function Header() {
     <header style={{ backgroundColor: '#333', color: 'white', padding: '1rem' }}>
       <nav style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', maxWidth: '1200px', margin: '0 auto' }}>
         <h1 style={{ margin: 0 }}>
-          <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>我的作品集</Link>
+          <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>my personal portfolio</Link>
         </h1>
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <ul style={{ listStyle: 'none', display: 'flex', gap: '2rem', margin: 0 }}>
-            <li><Link to="/" style={{ color: 'white', textDecoration: 'none' }}>主页</Link></li>
-            <li><Link to="/projects" style={{ color: 'white', textDecoration: 'none' }}>项目</Link></li>
-            <li><Link to="/blog" style={{ color: 'white', textDecoration: 'none' }}>博客</Link></li>
-            <li><Link to="/contact" style={{ color: 'white', textDecoration: 'none' }}>联系我</Link></li>
+            <li><Link to="/" style={{ color: 'white', textDecoration: 'none' }}>home page</Link></li>
+            <li><Link to="/projects" style={{ color: 'white', textDecoration: 'none' }}>project</Link></li>
+            <li><Link to="/blog" style={{ color: 'white', textDecoration: 'none' }}>blog</Link></li>
+            <li><Link to="/contact" style={{ color: 'white', textDecoration: 'none' }}>contact me</Link></li>
           </ul>
           
           <div style={{ marginLeft: '3rem', display: 'flex', gap: '1rem', alignItems: 'center' }}>
